@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/welcomeFragment">
+
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.example.testtask.ui.home.WelcomeFragment"
+        android:label="WelcomeFragment"
+        tools:layout="@layout/fragment_welcome">
+        <action
+            android:id="@+id/go_to_list"
+            app:destination="@id/listFragment"
+            app:popUpTo="@id/main_nav"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.testtask.ui.home.ProfileFragment"
+        android:label="ProfileFragment"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="com.example.testtask.ui.home.ListFragment"
+        android:label="ListFragment"
+        tools:layout="@layout/fragment_list">
+        <action
+            android:id="@+id/go_to_profile"
+            app:destination="@id/profileFragment" />
+    </fragment>
+</navigation>

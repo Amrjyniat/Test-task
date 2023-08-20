@@ -1,0 +1,22 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TestTask" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/pastel_red</item>
+        <item name="colorSecondary">@color/white</item>
+
+        <!-- Optional: set the status bar light and content dark. -->
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
+    </style>
+
+
+
+    <style name="Theme.TestTask" parent="Base.Theme.TestTask" />
+
+    <style name="CircleShape" parent="ShapeAppearance.Material3.SmallComponent" >
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>

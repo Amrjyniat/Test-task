@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">TestTask</string>
+    <string name="scopic">Scopic</string>
+    <string name="sign_up">Sign up</string>
+    <string name="email">Email</string>
+    <string name="email_hint">Your email address</string>
+    <string name="password">Password</string>
+    <string name="password_hint">Your password</string>
+    <string name="have_an_account">Have an account?</string>
+    <string name="sign_in">Sign in</string>
+    <string name="error">Error</string>
+    <string name="ok">OK</string>
+    <string name="hi_there_nice_to_meet_you">Hi there! Nice to meet you</string>
+    <string name="welcome">Welcome!</string>
+    <string name="list">List</string>
+    <string name="profile">Profile</string>
+    <string name="back">Back</string>
+    <string name="add_new_item">Add new Item</string>
+    <string name="item">Item</string>
+    <string name="save">Save</string>
+    <string name="logout">Logout</string>
+</resources>
